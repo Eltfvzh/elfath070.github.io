@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .main .jumbotron .mainheader {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+}
+
+.navbar .main .jumbotron .mainheader .text {
+    margin-top: 80px;
+    color: black;
+text-align: center;
+}
+
+.navbar .main .jumbotron .mainheader .img img {
+    cursor: pointer;
+    width: 500px;
+    height: auto;
+    margin-left: -10px;
+}
+
+.navbar .main .jumbotron .mainheader .link a{
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+}
+
+.navbar .main .jumbotron .mainheader .link a:active{
+    color: red;
+}
+
+.navbar .main .jumbotron .mainheader .link{
+    text-align: center;
+}
+
+.navbar .main .jumbotron .mainheader{
+    /* background-color: wheat; */
+    
+    height: 700px;
+    width: 500px;
+} 
+
+.navbar .main .jumbotron .banner{
+    width: 600px;
+    background-image: url(s88-pom-1544_2_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar .main .jumbotron .banner .orang{
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+}
+
+.navbar .main .jumbotron{
+    display: flex;
+    flex-direction: row;
+}
